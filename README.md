@@ -8,10 +8,12 @@ Reduce cognitive load and make your code look pretty!
 this.queryBuilder = queryBuilder;
 this.dao = dao;
 this.validator = validator;
+this.x = x;
 this.mapper = mapper;
 ```
 <i>After</i>
 ``` java
+this.x = x;
 this.dao = dao;
 this.mapper = mapper;
 this.validator = validator;
@@ -37,7 +39,7 @@ For example, the below snippet of code cannot be used with this plugin.
 let lines = selectedText
     .split('\n')
     .filter((line) => line)
-    .map((x) => x.id);
+    .map((x) => x.id = 6);
 ```
 * Also, please make sure to select entire lines i.e., starting from the first character till the last!
 * IntelliJ plugin also available!

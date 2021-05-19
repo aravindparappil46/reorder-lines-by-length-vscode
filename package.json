@@ -2,7 +2,16 @@
   "name": "reorder-lines-by-length",
   "publisher": "aravind-parappil",
   "displayName": "Reorder Lines By Length",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aravindparappil46/reorder-lines-by-length-vscode.git"
+  },
   "description": "Reduce cognitive load and make your code look pretty!",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "icon": "src/images/logo-vscode.png",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.40.0"
