@@ -11,8 +11,8 @@
     "color": "#C80000",
     "theme": "dark"
   },
-  "icon": "src/images/logo-vscode.png",
-  "version": "1.0.0",
+  "icon": "images/logo-vscode.png",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.40.0"
   },
