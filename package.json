@@ -8,11 +8,11 @@
   },
   "description": "Reduce cognitive load and make your code look pretty!",
   "galleryBanner": {
-    "color": "#C80000",
+    "color": "#000000",
     "theme": "dark"
   },
   "icon": "images/logo-vscode.png",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.40.0"
   },
